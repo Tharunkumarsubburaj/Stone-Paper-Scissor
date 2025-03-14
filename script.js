@@ -99,7 +99,7 @@ function playerCalculation(playerMove)
     player.innerHTML = playerMove;
     result.innerHTML = Result;
 
-    alert(`You picked ${playerMove}. Computer picked ${computerValue}. ${Result}. ${youWon} ${youTie} ${youLost}`);
+    // alert(`You picked ${playerMove}. Computer picked ${computerValue}. ${Result}. ${youWon} ${youTie} ${youLost}`);
 
 
 }
@@ -112,5 +112,5 @@ function reset()
     computer.innerHTML = 'None';
     player.innerHTML = 'None';
     result.innerHTML = 'None';
-    alert(`Value Reset Sucessfull`);
+    // alert(`Value Reset Sucessfull`);
 }
