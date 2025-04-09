@@ -53,6 +53,12 @@ body
         cursor: pointer;
     }
 
+    button:checked
+    {
+        background-color: rgba(128, 128, 128, 0.8);
+        color: white;
+    }
+
     .displayresult
     {
         display: flex;
@@ -113,6 +119,12 @@ body
         outline: none;
         border: 0;
         cursor: pointer;
+    }
+
+    button:checked
+    {
+        background-color: rgba(128, 128, 128, 0.8);
+        color: white;
     }
 
     .displayresult
